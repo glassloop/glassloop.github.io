@@ -32,11 +32,11 @@ lib.ssMetadata = [];
 	this.initialize(mode,startPosition,loop,{});
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#000000").s().p("Ag5CbQghgGgSgKQgOgIgJgcQgIgYAAgVQAAgXATAAQAKAAAIALIARAYQAZAjAvAAQAKAAAJgFQAOgGAAgLQgBgLgJgHQgIgFgRgGQg0gQgVgSQgrggABgtQgBgmAigeQAkgiA8AAQAQAAAYAGIAaAGIAJgCQAHgDAFAAQANAAAQAVQAUAXgBAaQAAAMgGAIQgIAJgLAAQgKAAgLgHIgUgRQgbgagZAAQgbAAAAAWQAAAMAKAIQAGAFATAFQA3AQAUAOQApAaAAAuQAAAsgiAeQgoAjhFAAQgZAAgdgFg");
-	this.shape.setTransform(230,76.9);
+	this.shape.graphics.f("#000000").s().p("AgRBwIgYgCIgIABIgJAAQgMAAgHgIQgJgJgGgQQgHgQAAgNQAAgVARAAQAJAAATAXQAUAVANAAQARAAAAgOQAAgIgNgIIgegRQgrgaAAgqQAAggAYgUQAXgUAjAAQAIAAARADIASAEQAFAAAHgEIAMgDQAOAAAOAXQAMAVAAAPQAAAJgGAGQgHAGgIAAQgOAAgSgSQgSgRgJAAQgGAAgFAFQgFAEAAAGQAAAJAPAKIAiARQAwAZAAAnQAAAfgaAUQgZAUgjAAg");
+	this.shape.setTransform(230,81.4);
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#000000").s().p("AiOBcQgRgiAFgmIAAhkQABgPgOgMQgPgMAAgJQgBgfBXAAQAxAAAUAJQARAHgBAPQAAAKgEAEIgMAGQgRAGgBAeIAABQQAABVBCAAQArAAAQgeQAHgNAAgTIAAhtQAAgagTgJIgMgGQgHgFABgJQgBgaBGAAQBAAAABAaQAAAIgGAFIgLAFQgRAKAAAWIAAB2QAAApgSAdQglA3hfAAQhtAAghhEg");
-	this.shape_1.setTransform(196.1,77);
+	this.shape_1.graphics.f("#000000").s().p("AiOBcQgRgiAFgmIAAhkQAAgPgOgMQgPgMAAgJQABgfBWAAQAyAAAUAJQAPAHAAAPQAAAKgEAEIgLAGQgSAGAAAeIAABQQAABVBBAAQAsAAAPgeQAHgNAAgTIAAhtQAAgagTgJIgMgGQgHgFAAgJQABgaBFAAQBBAAgBAaQAAAIgEAFIgMAFQgQAKgBAWIAAB2QAAApgSAdQglA3hfAAQhtAAghhEg");
+	this.shape_1.setTransform(200,77);
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#000000").s().p("AgkBnQgQgQAAgVQAAgXAQgPQAPgQAVAAQAWAAAQAQQAPAPAAAXQAAAVgPAQQgQAQgWAAQgVAAgPgQgAgkgaQgQgQAAgWQAAgXAQgPQAPgPAVgBQAWABAQAPQAPAPAAAXQAAAWgPAQQgQAPgWAAQgVAAgPgPg");
 	this.shape_2.setTransform(150.2,81.1);
@@ -202,11 +202,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,255,165.1);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
+(lib.Symbol1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.manillaCardsvg("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(171.7,109.7,1.371,1.371,0,0,0,127.7,82.5);
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-3.4,-3.4,349.6,226.3);
 // stage content:
 (lib.elearning_alphabet = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 	// timeline functions:
-	this.frame_0 = function() {
+	this.frame_41 = function() {
 		/* Stop at This Frame
 		The  timeline will stop/pause at the frame where you insert this code.
 		Can also be used to stop/pause the timeline of movieclips.
@@ -219,68 +228,53 @@ p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
 		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
-		this.button_5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_9.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_9()
+		this.button_8.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_12.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_12()
 		{
-			this.gotoAndPlay(1);
+			this.gotoAndPlay(42);
 		}
 	}
-	this.frame_1 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
-		*/
-		this.stop();
-		this.stop();
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		this.button_6.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_10.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_10()
-		{
-			this.gotoAndPlay(6);
-		}
-	}
-	this.frame_6 = function() {
+	this.frame_42 = function() {
 		playSound("LowConga");
 	}
-	this.frame_38 = function() {
+	this.frame_74 = function() {
 		playSound("midconga");
 	}
-	this.frame_72 = function() {
+	this.frame_108 = function() {
 		playSound("HighConga");
 	}
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(5).call(this.frame_6).wait(32).call(this.frame_38).wait(34).call(this.frame_72).wait(33));
+	this.timeline.addTween(cjs.Tween.get(this).wait(41).call(this.frame_41).wait(1).call(this.frame_42).wait(32).call(this.frame_74).wait(34).call(this.frame_108).wait(33));
 	// TO FROM CARD
 	this.button_6 = new lib.ToCeliaSymbol();
 	this.button_6.name = "button_6";
 	this.button_6.parent = this;
 	this.button_6.setTransform(233.9,581.9,1,1,0,0,0,145.2,76.8);
-	this.button_6._off = true;
 	new cjs.ButtonHelper(this.button_6, 0, 1, 1);
-	this.timeline.addTween(cjs.Tween.get(this.button_6).wait(1).to({_off:false},0).to({_off:true},5).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.button_6).to({_off:true},37).wait(104));
 	// CLICK HERE CARD
 	this.button_5 = new lib.ClickHereSymbol();
 	this.button_5.name = "button_5";
 	this.button_5.parent = this;
 	this.button_5.setTransform(235.5,561.4,1,1,0,0,0,78.6,93);
+	this.button_5._off = true;
 	new cjs.ButtonHelper(this.button_5, 0, 1, 1);
-	this.timeline.addTween(cjs.Tween.get(this.button_5).to({_off:true},1).wait(104));
+	this.timeline.addTween(cjs.Tween.get(this.button_5).wait(37).to({_off:false},0).to({_off:true},5).wait(99));
 	// Manilla Card
 	this.instance = new lib.manillaCardsvg("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(226,556.5,1.371,1.371,0,0,0,127.7,82.5);
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},6).wait(99));
+	this.button_8 = new lib.Symbol1();
+	this.button_8.name = "button_8";
+	this.button_8.parent = this;
+	this.button_8.setTransform(225.8,556.5,1,1,0,0,0,171.4,109.7);
+	new cjs.ButtonHelper(this.button_8, 0, 1, 1);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.button_8}]},37).to({state:[]},5).wait(99));
 	// Present
 	this.instance_1 = new lib.present2svg("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(225,400,0.989,0.994,0,0,0,227.5,402.5);
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},6).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},42).wait(99));
 	// celia
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#000000").s().p("ABUEkIAAhUQgKBUhKAAIhSAAQhEAAgxgyQgygwAAhGQAAhDAygyQAxgwBEABICmAAIAAhVQAAghgYgZQgZgYgjgBIhSAAQhKAAgJBTIhUAAQAUilCTAAICmAAQBEAAAxAwQAxAxAABEIAAGhgAg6BCQgYAZAAAhQAAAjAYAZQAZAZAhgBQAjABAZgZQAYgZAAgjIAAhSIhUAAQghgBgZAZg");
@@ -297,7 +291,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#000000").s().p("AhSF3QhEAAgygxQgxgxAAhFIAAmfQAAhEAwgyQAxgxBGAAICmAAQCdAAAJCnIhTAAQgLhUhIAAIhUAAQghAAgZAZQgYAYAAAjIAAGfQAAAiAYAZQAZAZAhAAIBUAAQBKAAAJhUIBTAAQgKCnicAAg");
 	this.shape_4.setTransform(124.9,394.7);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},72).wait(33));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},108).wait(33));
 	// Birthday
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#000000").s().p("AjWECQgqgcAAgvQAAgfAVgWQAVgWAfAAQArAAARArIALAeQAHAOALAAQAgAAAAgpQAAgUgbg2IhyjvQgHgPgfgOQgZgMAAgUQAAg9C8AAQBoAAAAAyQAAAMgJANQgKAOAAAJQAAAXAUAhQATAhALAAQARAAANgfQAMgaAAgTQAAgUgNgPQgNgPAAgNQAAgwBqAAQBYAAAAAqQAAAagcAMQglAPgNAWQgSAegZBDIgwCFQglBmgpAuQg5BEhaAAQgyAAglgYg");
@@ -323,7 +317,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
 	this.shape_12 = new cjs.Shape();
 	this.shape_12.graphics.f("#000000").s().p("AAAEiIhKgCIhUACIhVACQgVAAgPgLQgSgMAAgUQAAgQAJgIIATgMQAcgVAChOIAKjsQAChGgigRIgXgLQgLgHAAgSQAAgWAUgNQARgLAWAAIBbACIBbADIA4gDIA6gCQBmAAAwArQAmAjAAA4QAABBgtAlQgPANAAAJQAAAKASAIQAgANAaAcQAiAlAAAvQgBBIgwAyQg6A8hxAAgAgiBDIAAApQAABBAKATQAIANAVAAQBAAAAAhKQAAhfhHAAQgfAAgBAfgAggi/QgCAHAAAaIAABDQAAAdACAHQAEAMARAAQA8AAAAhQQAAhTg4AAQgUAAgFAPg");
 	this.shape_12.setTransform(58.4,387.7);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5}]},38).to({state:[]},34).wait(33));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5}]},74).to({state:[]},34).wait(33));
 	// Happy
 	this.shape_13 = new cjs.Shape();
 	this.shape_13.graphics.f("#000000").s().p("AkfGyIAAhXIAvAAQBCAAAegVQAegVAhhFIAcg9IkKpgIB3AAIDPHYIDRnYIBpAAIlBLNQgkBTg1AiQg0AhhgAAg");
@@ -340,7 +334,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
 	this.shape_17 = new cjs.Shape();
 	this.shape_17.graphics.f("#000000").s().p("ACfF4IAAlRIk9AAIAAFRIhzAAIAArvIBzAAIAAFJIE9AAIAAlJIB0AAIAALvg");
 	this.shape_17.setTransform(80.4,397.1);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13}]},6).to({state:[]},32).wait(67));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13}]},42).to({state:[]},32).wait(67));
 	// Background
 	this.shape_18 = new cjs.Shape();
 	this.shape_18.graphics.f("#FF99CC").s().p("EgjJA+gMAAAh8/MBGTAAAMAAAB8/g");
@@ -351,7 +345,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,157.2,186);
 	this.shape_20 = new cjs.Shape();
 	this.shape_20.graphics.f("#33FF66").s().p("EgjJA+gMAAAh8/MBGTAAAMAAAB8/g");
 	this.shape_20.setTransform(225,400);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_18}]},6).to({state:[{t:this.shape_19}]},32).to({state:[{t:this.shape_20}]},34).wait(33));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_18}]},42).to({state:[{t:this.shape_19}]},32).to({state:[{t:this.shape_20}]},34).wait(33));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(225,400.1,449.9,799.9);
 // library properties:
@@ -363,9 +357,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"sounds/HighConga.mp3?1537048509233", id:"HighConga"},
-		{src:"sounds/LowConga.mp3?1537048509233", id:"LowConga"},
-		{src:"sounds/midconga.mp3?1537048509233", id:"midconga"}
+		{src:"sounds/HighConga.mp3", id:"HighConga"},
+		{src:"sounds/LowConga.mp3", id:"LowConga"},
+		{src:"sounds/midconga.mp3", id:"midconga"}
 	],
 	preloads: []
 };
